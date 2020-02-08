@@ -1,0 +1,35 @@
+def downOne(num):
+    new_list = []
+    for x in range(num, -1, -1):
+        new_list.append(x) #why append x
+    return new_list
+print(downOne(8))
+
+def twoNum(list):
+    print (list[0])
+    return list[1]
+print(twoNum([1,2,3,4,5]))
+
+
+def firstPlus(list):
+    sum=0
+    for x in range(0, len(list)):
+        sum+= x
+    return sum
+print(firstPlus([2,3,4,5]))
+
+def greaterSecond(list):
+    newList= []
+    count= 0
+    for x in range (len(list)): 
+       if list[x] > list[1]:
+        count += 1
+        newList.append(x)
+    return newList
+print(greaterSecond([2,4,6,8]))
+
+def lengthValue(size, value):
+    newList=[]
+    for x in range(0,size,1):
+        newList.append(value)
+    return newList
