@@ -1,0 +1,79 @@
+for_loop_basic2.py
+
+# def biggie(list):
+#     for x in range(len(list)):
+#         if list[x] > 0:
+#             list[x] = "big"
+#     return list
+# print(biggie([-2,-5,2,6,-4]))
+
+# def positives(nums):
+#     count = 0
+#     for x in range(len(nums)):
+#         if x > 0:
+#             count += x # can this be written as count +1
+#     nums[len(nums)-1] = count
+#     return nums
+# print(positives([2,3,4,5,6]))
+
+# def sum(arr):
+#     sumArr = 0
+#     for x in range(len(arr)):
+#         sumArr += arr[x]
+#     return sumArr
+# print(sum([1,2,3,4]))
+
+# def sum(arr):
+#     sumArr = 0
+#     for x in range(len(arr)):
+#         sumArr += arr[x]
+#     return sumArr/len(arr)
+# print(sum([1,2,3,4]))
+
+# def sum(arr):
+#     return len(arr)
+# print(sum([5,6,7,8,9]))
+
+# def minimum(list):
+#     min = list[0]
+#     for x in range(len(list)):
+#         if min > list[x]:
+#             min = list[x]
+#         else:
+#             False
+#     return min
+# print(minimum([3,4,5,6,7]))
+
+# def maximum(list):
+#     max = list[0]
+#     for x in range(len(list)):
+#         if max < list[x]:
+#             max = list[x]
+#         else:
+#             False
+#     return max
+# print(maximum([2,8,4,9,4]))
+
+# def analysis(list_var):
+#     count = 0
+#     sum= 0 
+#     min = list_var[0]
+#     max = list_var[0]
+#     for x in range(len(list_var)):
+#         if max < list[x]:
+#             max = list[x]
+#         if min > list[x]:
+#             min = list[x]
+#         sum += arr[x]
+#     averge= len(list_var)
+#     ultimate = {sum, average, min, max, count}
+#     return ultimate
+# print analysis([2,3,18,10])
+
+
+# def reversed(arr):
+for(i=0; i<=x.length/2;i++):
+    temp=x[i]
+    x[i]=x[x.length-1-i]
+    x(x.length-1-i)=temp
+return (x)
